@@ -24,6 +24,9 @@ class ViewController: UIViewController {
     
     @IBAction func metricButtonPressed(_ sender: UIButton) {
         
+        metricButton.isSelected.toggle()
+        
+        
     }
     
     // Helper functions
